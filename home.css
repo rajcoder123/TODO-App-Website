@@ -1,0 +1,47 @@
+body{
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+  
+  }
+  
+  
+  #container
+  {
+    display: flex;
+    height:100% ;
+    width:100% ;
+  }
+  
+  #heading{
+    flex: 1;
+    text-align: center;
+  }
+  #leftDiv{
+    flex: 1;
+    height: 100%;
+    background-color:whitesmoke
+    
+  }
+  
+  #taskContainer
+  {
+    flex: 1;
+    padding: 10px;
+    align-items: center;
+  }
+  
+  #rightDiv{
+    flex: 1;
+    height: 100%;
+    background-color:azure;
+  }
+  #textArea
+  {
+    flex: 1;
+    height: 30%;
+    width: 100%;
+  }
+  
