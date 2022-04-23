@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  .navBar{
+  width: 100vw;
+  height: 10vh;
+  background-color: rgb(17,84,94);
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  }
+  .navbar h1{
+  margin: 10px;
+  }
+  .main{
+    display: flex;
+    height: 100vh;
+    background-color: lavender;
+  }
+  .left{
+    width: 50vw;
+    height: 90vh;
+    background-color: rgb(108 215 190);
+    padding: 5vh 2vw; 
+    overflow-y: scroll;
+  }
+  .right{
+    width: 50vw;
+    height: 90vh;
+    background-color: rgb(108 215 190);
+    padding: 5vh 2vw;
+  }
+  textarea{
+    width: 40vw;
+    height: 35vh;
+  }
+  h1,h2{
+    padding: 3vh 0;
+    font-size: 2vw;
+  }
+  .containor{
+    display: flex;
+    width: 94%;
+    position: relative;
+    background-color: rgb(182 245 233);
+    margin: 3vh 0;
+    padding: 2vh 1vw;
+    justify-content: space-between;
+  }
+  .deleteBtn,#checkbox{
+    width:20px;
+    height:20px;
+  }
+  #edit{
+     width:26px;
+    height:20px;
+  }
+  #para{
+    width: 70%;
+  }
+  .lines{
+    width: 26vw;
+    height: 4px;
+    background-color: rgb(106, 207, 224);
+    position: absolute;
+    top: 20px;
+  }
+  #logout,#btn,.btns,.deleteBtn{
+    padding: 4px 7px;
+    background: #2d0aef;
+    color: white;
+    border: none;
+    border-radius: 3px;
+  }
+  #logout{
+    margin-right: 40px;
+  }
+  #logout a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+  }
+  #logout:hover,#btn:hover,.btns:hover{
+    background: #3620b3;
+  }
+  .deleteBtn{
+    background-color: rgb(252, 5, 5);
+  }
+  .deleteBtn:hover{
+    background-color: rgb(189, 24, 24);
+  }
+  #value{
+    padding: 10px;
+  }
+  
+  @media only screen and (max-width: 850px) {
+    h1,h2{
+      font-size: 4vw;
+    }
+    .left p{
+      font-size: 3vw;
+    }
+  }
+  @media only screen and (max-width: 450px) {
+    .navBar{
+      width: 105vw;
+      margin: auto;
+     flex-direction: column;
+     height: 10vh;
+     position: relative;
+    }
+    .navBar h1{
+      margin:0;
+    }
+    #logout{
+      margin: 0;
+      position: absolute;
+      right: 5vw;
+    }
+    h1,h2{
+      font-size: 5vw;
+    }
+    .left p{
+      font-size: 3vw;
+    }
+   .main{
+     flex-direction: column-reverse;
+   }
+   .left{
+     width: 100vw;
+   }
+   .right{
+   width: 100vw;
+   height: 15vh;
+   }
+   .rightDetails{
+     display: flex;
+     justify-content: space-between;
+   }
+   textarea{
+     width: 65vw;
+     height: 5vh;
+   }
+   #btn{
+     margin-right: 4vw;
+     margin-top: 4vh;
+   }
+   .containor{
+     width: 93%;
+     margin: 3vh auto;
+   }
+  
+  }
+  
